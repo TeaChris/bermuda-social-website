@@ -805,6 +805,18 @@ main .container .right{
     }
 
     .customize-theme .card{
-        width: 92vw;
+        width: 80vw;
     }
+
+    .customize-theme .choose-bg > div span{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .customize-theme .choose-bg{
+        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
